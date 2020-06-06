@@ -1,0 +1,17 @@
+--Na raiz do projeto rode o comando "npm init -y" que iniciará a projeto. É importante dizer que para rodar esse comando o NodeJs precisa estar instalado na máquina. Será criado um arquivo chamado "package.json".
+
+--Ainda na raiz do projeto rode outro comando "npm install express", será criado uma pasta "node_modules" e um arquivo "package-lock.json".
+
+--Para colocar o servidor em funcionamento, crie um arquivo "server.js" (pode ser outro nome) e nele escreva:
+const express = require("express");
+const server = express();
+server.listen(3000);
+Feito isso digite no terminal o camando: "node src/server.js" que é onde se encontra o arquivo "server.js".
+
+--Para evitar de ficar reiniciando o servidor toda vez que houver mudanças no arquivo execute no terminal "npm install nodemon -D", no arquivo "package.json" nessa linha "start": "node src/server.js" mude para "start": "nodemon src/server.js".
+
+--"npm install nunjucks" instala um pacote que permite deixar páginas html dinâmicas ou seja, nos permite trabalhar com variáveis no html, colocando entre chaves duplas {{ variavel: alguma coisa }}.
+
+--"npm install sqlite3" instala o banco de dados no projeto.
+
+--Crie um arquivo "db.js" e nesse arquivo estam as instruções para criar o banco de dados. Para isso digite o comando "node src/database/db.js

@@ -52,3 +52,9 @@
 
   }
 }
+
+@media (max-width: 690px) {
+  #page-search-results main .cards {
+    grid-template-columns: none;
+  }  
+}

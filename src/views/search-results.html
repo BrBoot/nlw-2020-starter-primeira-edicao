@@ -27,12 +27,9 @@
             <h1>{{ place.name }}</h1>
             <h3>{{ place.items }}</h3>
             <p>
-              {{ place.city }},
-              {{ place.state }}
+              {{ place.city }}, {{ place.state }}
               <br/>
-              {{ place.address }}
-              <br/>
-              {{ place.address2 }}
+              {{ place.address }} N°: {{ place.address2 }}
             </p>
           </div>
         {% endfor %}

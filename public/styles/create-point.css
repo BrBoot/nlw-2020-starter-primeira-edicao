@@ -53,6 +53,7 @@ form legend {
 
 form legend span {
   font-size: 14px;
+  float: right;
   color: var(--title-color);
 }
 
@@ -147,4 +148,8 @@ form button:hover {
 
 .items-grid li img, .items-grid li span {
   pointer-events: none;
+}
+
+#page-create-point form h1 {
+  text-align: center;
 }
